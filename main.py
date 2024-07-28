@@ -1,6 +1,8 @@
-def say_hello()
-    print("hello, world!")
+from lib1 import carre
 
-say_hello()
+def say_hello(input):
+    print("hello, world!")
+    print("carre de {}: {}".format(input, carre(input)))
+say_hello(8)
 
 
