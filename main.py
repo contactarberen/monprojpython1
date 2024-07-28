@@ -1,5 +1,5 @@
-#from lib1 import carre, algo
-import lib1
+from lib1 import carre, algo
+#import lib1
 
 def say_hello(input):
     print("hello, world!")
